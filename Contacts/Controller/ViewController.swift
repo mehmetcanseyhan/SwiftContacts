@@ -20,7 +20,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.navBar.topItem?.title = "Persons"
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
